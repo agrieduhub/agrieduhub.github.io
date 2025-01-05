@@ -1,10 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Welcome to My GitHub Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AgriEduHub - Best Agriculture Resources for BSc Agriculture Students">
+    <meta name="keywords" content="Agriculture, BSc Agriculture, Agriculture Notes, Farming, Agriculture Resources">
+    <title>AgriEduHub - Best Agriculture Resources</title>
+
+    <!-- Link to Google Fonts for styling -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Basic CSS Styling -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .article {
+            background-color: white;
+            padding: 20px;
+            flex: 1;
+            min-width: 300px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .article h2 {
+            color: #4CAF50;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my first GitHub Page!</p>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to AgriEduHub</h1>
+        <p>Your go-to place for Agriculture resources, notes, and online courses</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Resources</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <div class="content">
+            <!-- Example Article -->
+            <div class="article">
+                <h2>Understanding Crop Rotation</h2>
+                <p>Crop rotation is a practice that involves growing different types of crops in the same field in a planned sequence...</p>
+                <a href="#">Read More</a>
+            </div>
+
+            <!-- Another Example Article -->
+            <div class="article">
+                <h2>Soil Fertility Management</h2>
+                <p>Soil fertility is crucial for successful crop growth. This article covers the best practices for managing soil fertility...</p>
+                <a href="#">Read More</a>
+            </div>
+
+            <!-- More articles can be added here -->
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 AgriEduHub. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
